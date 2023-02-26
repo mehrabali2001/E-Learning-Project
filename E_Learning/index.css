@@ -1,0 +1,502 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#hed{
+    background-color: black;
+    height: 50px;
+}
+#log{
+    display: flex;
+    padding: 10px;
+    
+}
+div h2{
+    color: white;
+    padding-left: 5px;
+    align-items: center;
+}
+
+#parent .logoheader ul li{
+    list-style: none;
+}
+#parent .logoheader ul{
+    display: flex;
+   
+}
+#parent .logoheader ul li i{
+    padding-left: 20px;
+    
+   font-size: 25px;
+}
+#parent .logoheader {
+    padding-left: 58%;
+}
+#menu ul li{
+    list-style: none;
+
+    
+
+ 
+}
+#menu{
+    display: flex;
+    background-color: rgb(168, 64, 224);
+}
+#menu .fle1{
+   align-items: center;
+    display: flex;
+    padding-left: 50px;
+}
+#menu .fle1 h2{
+    color: white;
+}
+
+#menu ul {
+    padding-left: 35%;
+}
+#menu ul li{
+    padding-left: 20px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+ 
+   
+    
+}
+#menu ul li a:hover{
+    color: darkblue;
+     /* background-color:blueviolet;
+    height: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px; */
+    font-size: 22px;
+}
+#menu ul{
+    display: flex;
+    justify-content: space-between;
+    /* background-color:turquoise; */
+    height: 60px;
+    align-items: center;
+    align-items: center;
+}
+
+#dummy{
+    display: flex;
+    padding-top: 30px;
+}
+.dummy1 p{
+    padding:2rem;
+    text-align: center;
+   font-size: 15px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight:normal;
+   color: black;
+   padding-right: 50%;
+}
+.dummys .dumm{
+   background-color:blueviolet;
+   height: 50px;
+   width: 150px;
+   color:wheat;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+}
+#dummy3 img{
+     padding-right: 60px; 
+} 
+
+
+#marq{
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+#mid img{
+    margin-left: 30px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+.script th h2{
+    font-weight: normal;
+    color: white;
+    padding-left: 35px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+}
+ #mid{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: white;
+}
+#mid{
+    background-color:blueviolet;
+    padding-left: 60px;
+    padding-right: 70px;  
+}
+th p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    word-spacing: 2px;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+#dummy .dummy1 p{
+    padding-top: 30px;
+    padding-left: 100px;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style:normal ;
+    font-family: 'Times New Roman', Times, serif;
+}
+#dummy{
+    background-color: turquoise;
+}
+#dummy .dummys{
+    margin: 25px;
+   padding-left: 135px;
+
+   
+   
+}
+#dummy .dummys button a{
+    text-decoration: none;
+    color: white;
+}
+#dummy .dummys :hover{
+    background-color:cornflowerblue;
+}
+#dummy .dummys .dumm{
+    margin-left: 10px;
+    
+   
+}
+.topplac .contentplac p{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+   
+
+}
+.topplac .imagecompany img{
+   padding: 30px;
+}
+.topplac .imagecompany{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#parent{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    background-color: white;
+    /* justify-content: space-between; */
+}
+#parent .fle{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+#parent .fle h2{
+    color: black;
+}
+/* #menu ul li a:hover{
+    background-color: cornsilk;
+    padding-right: 10px;
+} */
+ #mid .content{
+    margin: 10px;
+
+}
+
+#course .courseh{
+     margin-top: 50px;
+     margin-left: 400px;
+    font-weight: bolder;
+    font-style:italic;
+    font-size: 35px;
+    color:darkblue;
+    padding-bottom: 60px;
+}
+#course .script th h2{
+    color: black;
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+   
+    
+}
+#course th p{
+    color: black;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+#course{
+    padding-right: 140px;
+    padding-left: 140px;
+}
+#course .button th button{
+    height: 55px;
+    width: 170px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: indigo;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    border:none;
+    
+}
+#course .button th button:hover{
+    background-color: rgb(149, 75, 202);
+    
+}
+.imgmarq marquee{
+   margin: 10px;
+    direction: ltr;
+}
+.somet{
+    display: flex;
+   
+}
+.learn1{
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.somet .imglearn{
+    margin-left: 10%;
+   margin-top: 5%;
+
+}
+.somet .learnh{
+    color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+ 
+}
+.somet .learn{
+    padding-left: 100px;
+  padding-bottom: 20px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+ 
+}
+.somet .btnt button{
+    margin-top: 30px;
+    margin-left: 110px;
+    height: 55px;
+    width: 170px;
+    border: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 20px;
+    font-weight:normal;
+    border-radius: 5px;
+    color: black;
+    font-weight: 500;
+   
+   
+}
+#top1{
+    background-color: darkslateblue;
+     padding-bottom: 20px;
+}
+.somet .imglearn1 img{
+  margin-left: -20%;
+  margin-top: 13%;
+  
+}
+.somet .learn1 .btnt1 button{
+
+    margin-top: 30px;
+    margin-left: 110px;
+    height: 60px;
+    width: 220px;
+    border: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 20px;
+    font-weight:normal;
+    border-radius: 5px;
+    color: black;
+    font-weight: 500;
+}
+.somet .learn1 .btnt1 button a{
+    text-decoration: none;
+}
+#team{
+    background-color:azure;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 30px;
+}
+#team .team1{
+    padding-left: 45%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-style: italic;
+    color: blueviolet;
+    word-spacing: 5px;
+}
+#team table thead tr th img{
+    border-radius: 230px;
+    margin-left: 40px;
+   
+}
+#team .script th h2{
+    color: black;
+}
+#team .content th h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+footer .foot1 ul{
+    display: flex;
+    list-style: none;
+    padding-left: 40%;
+    padding-top:12px ;
+   
+}
+footer .foot1 ul li i{
+   
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 30px;
+    padding: 15px;
+    
+   
+}
+.foot2{
+    background-color: black;
+   height: 55px;
+   
+}
+.foot2 p{
+    color: darkgray;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+   
+}
+#parent .fle a{
+    color: black;
+    text-decoration: none;
+}
+.somet .learn1 .btnt button a {
+    text-decoration: none;
+}
+.footer-text{
+    background-color: black;
+    color: white;
+    display: flex;
+  }
+  .footer-text .information-text ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  .footer-text .information-text ul{
+    list-style: none;
+  }
+  .footer-text .information-text{
+    padding-left: 15%;
+    padding-top: 4%;
+  }
+  
+  .footer-text .product-categories ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  .footer-text .product-categories{
+    padding-left: 10%;
+    padding-top: 4%;
+  }
+  .footer-text .location{
+    padding-left: 10%;
+    padding-top: 4%;
+  }
+  
+  .footer-text .location .social-networks ul li a{
+    color: white;
+    text-decoration: none;
+  
+  }
+  .footer-text .location .social-networks ul{
+    list-style: none;
+  }
+  .footer-text .location .social-networks{
+    margin-top:8%;
+  }
+  .footer-text h5{
+    color: #fcec91;
+  }
+  .last-End{
+    padding-top: 2%;
+    padding-left: 25%;
+    height: 100px;
+  }
+  .last-End logo{
+    padding-left: 23%;
+    font-size: 30px;
+    
+  }
+  .last-End logo i{
+    padding-left: 10px;
+  }
+  .last-End .allRigth{
+    padding-left: 19%;
+  }
+ 
+  .last-End p span{
+    color: rgb(226, 156, 156);
+  }
+  .last-End p a{
+    text-decoration: none;
+  }
+  .footer-text h5{
+    font-size: 30px;
+  
+  }
+  .footer-text li{
+    padding-top: 15px;
+    padding-bottom: 2%;
+  }
+  .footer-text li a{
+    font-size: 17px;
+  }
+  .last-End p{
+   padding-top: 10px;
+   font-size: 20px;
+   padding-left: 15%;
+  }
+  .last-End i{
+    padding-top: 10px;
+  }
+  .last-End .allRigth{
+
+    font-size: 18px;
+  }
+ 

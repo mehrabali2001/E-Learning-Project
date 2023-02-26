@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>CodeSikho</title>
+    <style>
+        body{
+            background-color: azure;
+        }
+        *{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+ outline: none;
+}
+footer{
+    margin-top: 33%;
+}
+
+.wrapper{
+ position: absolute;
+ top:50%;
+ left:50%;
+ transform: translate(-50%,-50%);
+ max-width:450px;
+ width:100%;
+ background-color: azure;
+ border-radius: 5px;
+ box-shadow: 4px 4px 2px rgb(170, 170, 235);
+ border: 4px solid  rgb(170, 170, 235);
+
+
+}
+.wrapper h2{
+ text-align: center;
+ margin-bottom: 20px;
+ text-transform: uppercase;
+ letter-spacing: 3px;
+ color:blueviolet;
+}
+.wrapper .input_field{
+ margin-bottom:10px;
+
+
+}
+.wrapper .input_field input[type="text"],[type="date"],[type="password"]
+{
+ border:1px solid rgb(241, 241, 195);
+ width:100%;
+ padding:10px;
+}
+
+.wrapper .btn input[type="submit"]
+{
+ border:0px;
+ margin-top:15px;
+ padding:10px;
+ text-align: center;
+ width:100%;
+ background-color: yellow;
+ color:green;
+ text-transform: uppercase;
+ letter-spacing: 5px;
+ font-weight: bold;
+ border-radius: 25px;
+ cursor: pointer;
+}
+#err_message{
+ margin-bottom:20px;
+ background-color: Red;
+ padding:0px;
+ text-align: center;
+ font-size:14px;
+ color:yellow;
+}
+    </style>
+</head>
+<body>
+  <div id="parent">
+    <!-- <div class="fle">
+        <img src="image/log1.webp" height="30px" width="30px">
+        <h2>Codesikho</h2>
+      </div> -->
+    <div class="fle">
+      
+      <i class="fa-brands fa-square-whatsapp"></i>
+      <a href="https://api.whatsapp.com/send?phone=9006847338">
+         <h4>9006847338</h4>
+    </a>
+    </div>
+    <div class="fle">
+      <i class="fa-solid fa-envelope"></i>
+      <a href="mailto:mustafizfrom786@gmail.com">
+        <h4>mustafizfrom786@gmail.com</h4>
+    </a>
+  
+       
+    </div>
+    <div class="logoheader">
+      
+      <ul>
+         
+
+        <li><i class="fa-brands fa-square-facebook"></i></i></li>
+        <li><i class="fa-brands fa-square-instagram"></i></i></li>
+        <li><i class="fa-brands fa-linkedin"></i></i></li>
+        <li><i class="fa-brands fa-square-snapchat"></i></i></li>  
+      </ul>
+    </div>
+</div>
+      <div id="menu">
+        <div class="fle1">
+   
+         <img src="image/log1.webp" height="30px" width="30px">
+          <h2>Codesikho</h2>
+                 
+        </div>
+          <ul>
+            
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="login.html">Class</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="carrer.html">Career</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="">Blog</a></li>
+          </ul>
+
+      </div>
+          <div class="top">
+  <div class="wrapper">
+    <h2>REGISTRATION FORM</h2>
+    <div id="err_message"></div>
+     
+         <form id="myform" onsubmit="return hello1();" method="post" action="login.html">
+             <div class="input_field">
+                <input type="text" id="name" placeholder="Name" name="name">
+             </div>
+             <div class="input_field">
+               <input type="text" id="uname" placeholder="Username" name="username">
+            </div>
+            <div class="input_field">
+                <input type="password" id="pass" placeholder="password" name="password">
+            </div>
+            <div class="input_field">
+               <input type="text" id="email" placeholder="email" name="email">
+            </div>
+            <div class="input_field">
+               <input type="date" id="dob" placeholder="Date-of-birth" name="dob">
+            </div>
+            <div class="input_field">
+               <input type="text" id="mob" placeholder="Mobile Number" name="mob">
+            </div>
+            
+            <div class="btn">
+               <input type="submit" formaction="http://localhost:8081/Register_learn" value="Register">
+                </div>
+
+         </form>
+
+     </div>
+    </div>
+    <footer>
+      <div class="foot1">
+         <ul>
+           <li><i class="fa-brands fa-facebook-f"></i></li>
+           <li><i class="fa-brands fa-instagram"></i></li>
+           <li><i class="fa-brands fa-linkedin-in"></i></li>
+           <li><i class="fa-brands fa-snapchat"></i></li>  
+         </ul>
+      </div>
+      
+
+</footer>
+<div class="footer-text">
+  <div class="information-text">
+      <h5>Information</h5>
+      <ul>
+       <li>
+         <a href="">General Conditions</a></li>
+       <li> <a href="">Privacy Policy</a> </li>
+       <li> <a href="">Cookies Policy</a></li>
+       <li> <a href="">Purchase Conditions</a> </li>
+       <li> <a href="">Quality</a></li>  
+      </ul>
+  </div>
+   <div class="product-categories">
+     <h5>Course categories</h5>
+     <ul>
+      
+       <li><a href=""> Java</a></li>
+      <li> <a href="">JavaScript</a> </li>
+      <li> <a href="">React Js</a></li>
+      <li> <a href="">Database</a> </li>
+      <li> <a href=""> Python</a></li>  
+      <li> <a href="">HTML/CSS</a> </li>
+      <li> <a href="">Data structure</a></li>
+      <li> <a href="">C/C++</a> </li>
+      <li> <a href=""> Ruby</a></li>
+      <li> <a href="">C#</a> </li>
+      <li> <a href=""> Data Science</a></li>  
+      <li> <a href=""> AI/ML</a></li>
+     </ul> 
+   </div>
+
+   <div class="location">
+       <h5>Location</h5>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1
+       d227748.9997360682!2d75.65047149601598!3d26.88514167878653!2m3!1f0
+       !2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce
+       1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1666539416
+       127!5m2!1sen!2sin" width="250" height="250" style="border:0;"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           
+        <div class="social-networks">
+         <h5>Social Networks</h5>
+         <ul>
+          <li><a href="">Facebook</a></li>
+          <li><a href="">Instagram</a></li>
+         </ul>
+  
+      </div>
+       </div>
+   
+      </div>
+
+<div class="last-End">
+           <div class="allRigth">@ 2022 XYZ Restaurent . All Rights Reserved</div>  
+             <p>Design by  <a href="https://www.linkedin.com/in/mustafiz-kaifi-550b23211?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQgqYfZb6Qiq06C7Qn8L9%2Fg%3D%3D">
+              <span>Mustafiz Kaifi </span></a> |
+               <a href="https://www.linkedin.com/in/md-mehrab-ali-753024212?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BkCp%2FtHbSTg2X2glsnFlT%2Bw%3D%3D">
+                <span> Md Mehrab Ali </span></a> |
+               <a href="https://www.linkedin.com/in/md-raza-8b9b15254?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BrIHQ%2FQsoTIiGr35oNFWNXQ%3D%3D">
+                <span> Md Raza </span></a> 
+              </p>
+               <logo>
+                 <i class="fa-brands fa-facebook"></i>
+                 <i class="fa-brands fa-instagram"></i>
+                 <i class="fa-brands fa-snapchat"></i>
+                 <i class="fa-brands fa-twitter"></i>
+               </logo>
+         </div>
+     <script src="ex1.js">
+  fetch('http://localhost:8081/Register_learn').then((apidata) =>{
+  console.log(apidata);
+  return apidata.json();
+}).then((actualdata)=>{
+  const my=actualdata.name;
+  const user=actualdata.username;
+  const email=actualdata.email;
+  document.write(my)
+}).catch((error)=>{
+console.log(error);
+});
+
+     </script>
+
+</body>
+</html>

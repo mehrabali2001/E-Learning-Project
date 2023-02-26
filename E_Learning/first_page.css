@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    border: 5px solid black;
+
+}
+
+.nav {
+    background-color: rgb(243, 229, 229);
+
+}
+
+
+.nav-item:hover {
+    background-color: rgb(246, 230, 241);
+    border: 2px solid rgb(238, 238, 166);
+    border-radius: 5px ;
+    
+}
+.first1{
+    width: 300px;
+    height: 200px;
+   
+    background-color: rgb(205, 247, 106);
+    border-radius: 20px;
+    border: 6px solid rgb(205, 247, 106);
+    display: inline-block;
+   margin-left: 100px;
+    padding-right:1px;
+      margin-top: 40px;
+      box-sizing: border-box;
+      box-shadow: 7px 7px 7px 7px rgb(205, 247, 106);
+      transition: 1s;
+      position:relative;
+      clear: both;
+      transition: 2s;
+      transition: all 0.3s;
+    }
+   
+      
+      
+
+.first1:hover{
+    transform: translateY(5px);
+    border-bottom: 3px solid rgb(145, 193, 145);
+   
+    background-color:  rgb(178, 193, 146);
+}
+h1{
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 20px;
+}
+p{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.flexbox{
+    display: flex;
+    align-items: baseline;
+    margin-top: 15px;
+    margin-right: 13px;
+    
+
+    
+}
+i{
+    font-size: large;
+}
+.course{
+    font-size: large;
+    text-align: center;
+    margin-top: 40px;
+    font-size: large;
+    color: blue;
+
+}
+/* deshboard start */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.topbar{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(74, 74, 134);
+    color: whitesmoke;
+    padding: 1PX,30px;
+    line-height: 50px;
+    border-bottom: 1px solid #fff;
+}
+.topbar h3{
+    float: left;
+    color:whitesmoke;
+}
+    
+.topbar ul{
+    float: right;
+    list-style-type: none;
+}
+.topbar li{
+    display: inline;
+
+}
+/*---dashboard-content-*/
+.dashboard{
+    height: 600px;
+}
+.dashboard,option{
+    width: 20%;
+    height: 665px;
+    background-color: rgb(55, 55, 121);
+    color: whitesmoke;
+    float: left;
+}
+.option ul{
+    list-style-type: none;
+
+}
+.option li{
+    width: 100%;
+    height: 50px;
+    padding-left: 30px;
+    line-height: 50px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.option li:hover{
+    background-color: blue;
+    display: inline-block;
+
+}
+.content{
+    width: 80%;
+    height: 665px;
+    background-color:lightgrey;
+    float: right;
+    padding: 40px 30px;
+}
+h1{
+    color: darkblue;
+}
+.content .but{
+    padding: 10px 15px;
+    font-size: 20px;
+    color: darkblue;
+    font-weight: bold;
+}
+.content p{
+    padding-top: 30px;
+    font-weight: bold;
+}
+.content select{
+    padding: 5px;
+}
+.btn{
+    padding: 5px;
+    font-weight: bold;
+}
+.searchbox{
+    width: 300px;
+    height: 35px;
+}
+table{
+    margin-top: 10px;
+    border: 1px solid gray;
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.check{
+    margin: 8px;
+}
+.strips{
+    background-color: lightgray;
+
+}
+.myform{
+    display: none;
+}
+.myform{
+    position: absolute;
+    top: 22%;
+    left: 35%;
+    width: 400px;
+    height: 550px;
+    background-color:rgb(61, 59, 59);
+    padding: 30px;
+    border-radius: 45px;
+}
+.txt{
+ width: 100%;
+ height: 50px;
+ font-size: 18px;
+ margin: 6px 0px;
+ border: 2px solid black;
+}
+ .btn{
+    width: 49px;
+    height: 50px;
+    font-weight: bold;
+    color: darkblue;
+}
+.myform .btn{
+    width: 40%;
+    height: 50px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: orangered;
+}
+a{
+color: black;
+}
+h2{
+    text-align: center;
+    background-color: darkgrey;
+    border-radius: 20px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+/* deshboard end */

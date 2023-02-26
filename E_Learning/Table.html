@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="first_page.css">
+     <script src="page.js"></script>
+</head>
+    <title>E_learning</title>
+</head>
+<body>
+    <div class="container-fluid mb-3">
+
+        <div class="row py-3">
+            <div class="col">
+                <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+
+
+                    <button class="navbar-toggler" data-toggle="collapse" data-targert="#mynavbar">
+                        <span class="navbar-toggler-icon"><a href="#"></a></span>
+
+                    </button>
+
+
+
+
+
+
+                    <div class="collapse navbar-collapse" id="mynavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ">
+                                <a href="page2.html" class="nav-link">Batches
+
+                                </a>
+
+                            </li>
+                            <li class="nav-item"><a href="#" class="nav-link">Timetable</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Reports</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Payments</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">chats</a></li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link"> Test </a> </li>
+
+                        </ul>
+                       
+
+                    </div>
+
+
+
+
+                </nav>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="myform" id="openform">
+        <h2>Student Loginform</h2>
+        <form>
+             <div>
+                <input type="text"name="fullname"placeholder="please FullName here" class="txt">
+            </div>
+            <div>
+                <input type="email"name="email"placeholder="please Email here" class="txt" required>
+                <input type="text"name="call"placeholder="please Mobile No here" class="txt">
+                <input type="password"name="pass"placeholder="please password here" class="txt"required>
+                <inpute type="number"name="num">
+               
+            </div>
+            <div>
+                <input type="submit"name="submit"placeholder="submit" class="btn">
+                <input type="button"name="close"value="close" class="btn"  onclick="closeform()">
+            
+                
+               
+                <p class="link">Don't have an account</p>
+                <a class="wer"href="#">Sign up here</a>
+                <p class="liw">Log in with us</p>
+
+            </div>
+        </form>
+    </div>
+    <div class="topbar">
+        <h3>Overview</h3>
+        <ul>
+            <li>E_Learning </li>
+           <li><img src="t.jpg"width="16"height="16">
+        </li>
+        </ul>
+    </div>
+<!---topbar-->
+<div class="dashboard">
+    <div class="option">
+        <ul>
+            <li>Attendance</li>
+            <li>Assignment</li>
+            <li>Announcement</li>
+            <li>test</li>
+            <li>Videos</li>
+            <li>Live classes</li>
+            <li>Study material</li>
+        </ul>
+    </div>
+</div>
+<!--option-->
+   <div class="content">
+    <h1>Student <button type="button"class="but" onclick="openform()">+Add New</button></h1>
+    <div>
+        <p>All classes link available here</p>
+    </div>
+    <div>
+        <select>
+         <option>Bulk Action</option>
+         <option>Edit</option>
+         <option>Delete</option>  
+        </select>
+        <button type="button"class="btn">Apply</button>
+        <input type="text"name="search"placeholder="search here"class="searchbox">
+        <button type="submit"name="search"class="btn">search</button>
+
+    </div>
+    <table>
+        <tr>
+            <th>
+                <input type="checkbox">Sr No.</th>
+            <th>Name</th>
+            <th>EmailId</th>
+            <th>Contact No</th>
+            <th>Course</th>
+            <th>Class time</th>
+            <th>online link</th>
+            <th>Drive link</th>
+        </tr>
+        <tr class="strips">
+            <td>
+                <input type="checkbox"class="check">1.</td>
+               <td>Mehrab Ali</td>
+               <td>meh12@gmail.com</td>
+               <td>9350393758</td>
+               <td>PHP</td>
+               <td>3pm:4am</td>
+               <td><a href="#">https://meet.google.com/hot-aqgs-ytp</a></td>
+               <td><a href="#">https://forms.gle/tqyJVnZSPR5zZehY8</a></td>
+              
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox"class="check">2.</td>
+               <td>Ayush raj</td>
+               <td>Ayush12@gmail.com</td>
+               <td>6550393758</td>
+               <td>RUBY</td>
+               <td>4am :5am</td>
+               <td><a href="">https://meet.google.com/hot-aqgs-ytp</a></td>
+               <td><a href="#">https://forms.gle/tqyJVnZSPR5zZehY8</a></td>
+              
+        </tr>
+        <tr  class="strips">
+            <td>
+                <input type="checkbox"class="check">3.</td>
+               <td>Azaz Ali</td>
+               <td>Azu12@gmail.com</td>
+               <td>9350393745</td>
+               <td>JAVA</td>
+               <td>3pm:4am</td>
+               <td><a href="#">https://meet.google.com/hot-aqgs-ytp</a></td>
+               <td><a href="#">https://forms.gle/tqyJVnZSPR5zZehY8</a></td>
+              
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox"class="check">4.</td>
+               <td>Sahrukh Ali</td>
+               <td>shah12@gmail.com</td>
+               <td>8089393758</td>
+               <td>PYTHONE</td>
+               <td>3pm:4am</td>
+               <td><a href="#"> https://meet.google.com/hot-aqgs-ytp</a></td>
+               <td><a href="#">https://forms.gle/tqyJVnZSPR5zZehY8</a></td>
+              
+        </tr>
+        <tr  class="strips">
+            <td>
+                <input type="checkbox"class="check">5.</td>
+               <td>Rehan Ali</td>
+               <td>Reh12@gmail.com</td>
+               <td>8767393758</td>
+               <td>HTML</td>
+               <td>3pm:4am</td>
+               <td><a href="#">https://meet.google.com/hot-aqgs-ytp</a></td>
+               <td><a href="#">https://forms.gle/tqyJVnZSPR5zZehY8</a></td>
+              
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox"class="check">6.</td>
+               <td>Kaif</td>
+               <td>kaif12@gmail.com</td>
+               <td>9350394598</td>
+               <td>DEVOPS</td>
+               <td>3pm:4am</td>
+               <td><a href="#">https://meet.google.com/hot-aqgs-ytp</a></td>
+               <td><a href="">https://forms.gle/tqyJVnZSPR5zZehY8</a></td>
+              
+        </tr>
+        <tr  class="strips">
+            <td>
+                <input type="checkbox"class="check">7.</td>
+               <td>Rehan raza</td>
+               <td>rehan12@gmail.com></td>
+               <td>9350394567</td>
+               <td>DSA</td>
+               <td>3pm:4am</td>
+               <td><a href="#">https://meet.google.com/hot-aqgs-ytp</a></td>
+               <td><a href="">https://forms.gle/tqyJVnZSPR5zZehY8</a></td>
+              
+        </tr>
+        <td>
+            <input type="checkbox"class="check">8.</td>
+            <td>Ramashish</td>
+            <td>ram12@gmail.com></td>
+            <td>9350394567</td>
+            <td>  <a href="dsa.html">DSA </a></td>
+            
+            <td>  <a href="#">3pm:4am  </a> </td>
+       
+            <td><a href="#"> https://meet.google.com/hot-aqgs-ytp</a></td>
+            <td><a href="">https://forms.gle/tqyJVnZSPR5zZehY8</a></td>
+           
+
+
+
+    </table>
+    
+</body>
+</html>
